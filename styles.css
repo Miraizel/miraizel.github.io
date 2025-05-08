@@ -27,10 +27,6 @@ div {
   align-items: flex-end;
   
 }
-.item {
-  /*flex-grow: 0;
-  flex-shrink: 1;*/
-}
 .container3{
   display: flex;
   flex-direction: row;
