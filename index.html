@@ -1,15 +1,24 @@
 <!doctype html>
-<html lang="en" style="background-color:black; outline: 2px dashed white !important; outline-offset:1px;">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <title>Mirai</title>
 <style>
+html {
+  /* using odd numbers on margin, padding and
+  outline-offset will make your html go boom */
+  margin: 6px;
+  padding: 6px;
+  outline: 1px dashed white;
+  outline-offset: 5px;
+  background-color: black;
+}
 * {
   margin: 3px;
   padding: 3px;
   box-sizing: border-box;
-  outline: 1px dashed pink;
+  outline: 1px dashed lightgrey;
 }
 body {
   outline: 1px dashed blue;
