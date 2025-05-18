@@ -7,49 +7,49 @@
 <link rel="stylesheet" href="styles.css">
 <style>
 body {
- font-family: Arial, sans-serif;
- color: black;
- outline: unset;
+  color: black;
+  outline: unset;
 }
 .container {
- display: grid;
- grid-template-columns: 200px 1fr;
- grid-template-rows: auto 300px auto;
- gap: 10px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 300px auto;
+  gap: 10px;
 }
 .sidebar {
- grid-row: 1 / 4; /* Spans multiple rows */
- background: lightblue;
- padding: 20px;
+  grid-row: 1 / 4; /* Spans multiple rows */
+  background: lightblue;
+  padding: 20px;
 }
 .content {
- grid-column: 2 / 3;
- grid-row: 1 / 2;
- background: lightgray;
- padding: 20px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background: lightgray;
+  padding: 20px;
 }
 .featured {
- grid-column: 2 / 3;
- grid-row: 2 / 3;
- background: coral;
- padding: 20px;
- z-index: 2; /* Overlapping */
- font-weight: bold;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background: coral;
+  padding: 20px;
+  z-index: 2; /* Overlapping */
+  font-weight: bold;
 }
 .footer {
- grid-column: 2 / 3;
- grid-row: 3 / 4;
- background: lightgreen;
- padding: 20px;
- }
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background: lightgreen;
+  padding: 20px;
+}
 </style>
 </head>
 <body>
+<h1 style="color:white">Grid</h1>
 <div class="container">
- <div class="sidebar">Sidebar Content</div>
- <div class="content">Main Content Area</div>
- <div class="featured">Featured Section</div>
- <div class="footer">Footer Section</div>
+  <div class="sidebar">Sidebar Content</div>
+  <div class="content">Main Content Area</div>
+  <div class="featured">Featured Section</div>
+  <div class="footer">Footer Section</div>
 </div>
 </body>
 </html>
