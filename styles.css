@@ -1,6 +1,6 @@
 html {
   background-color: black;
-  outline: 1px dashed white;
+  outline: 1px dashed whitesmoke;
   outline-offset: 1px;
   /* 1+1=magellan */
 }
@@ -13,7 +13,7 @@ html {
   outline: 1px dashed pink;
 }
 body {
-  outline: 1px dashed blue;
+  outline: 1px dashed slateblue;
   color: white;
   font-family: Consolas, Monaco, monospace;
   /* display: flex; use this and html boom
