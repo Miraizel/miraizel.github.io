@@ -4,6 +4,10 @@
   box-sizing: border-box;
   outline: 1px dashed lightgrey;
 }
+html {
+  background-color: black;
+  color: white;
+}
 body {
   display: flex;
   flex-direction: column;
