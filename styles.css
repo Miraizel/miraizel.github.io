@@ -1,39 +1,21 @@
-* {
-  margin: 3px;
-  padding: 3px;
-  box-sizing: border-box;
-  outline: 1px dashed lightgrey;
-}
 html {
   background-color: black;
-  color: white;
+  outline: 1px dashed white;
+  outline-offset: 1px;
+  /* 1+1=magellan */
+}
+* {
+  /* using odd numbers on margin and padding
+  will make your html go boom */
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  outline: 1px dashed pink;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  outline-color: darkcyan;
-}
-div {
-}
-.container1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-  align-content: space-evenly;
-  /*min-height: 100vh;*/
-}
-.container2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-  
-}
-.container3{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: baseline;
+  outline: 1px dashed blue;
+  color: white;
+  font-family: Consolas, Monaco, monospace;
+  /* display: flex; use this and html boom
+  flex-direction: column;*/
 }
